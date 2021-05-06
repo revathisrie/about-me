@@ -9,6 +9,15 @@ alert('Hello, ' + userName);
 
 let correctAnswers = 0;
 
+favoriteDesert();
+mySiblings();
+questionBookReading ();
+qustionJoinCodeFellows ();
+questionYogurt();
+guessNumber();
+favoriteMovies();
+
+function favoriteDesert() {
 // Question 1.
 let desert = prompt('Does Revathi like deserts.? Please Answer with yes or no.');
 
@@ -22,7 +31,9 @@ if (lowerCaseDesert === 'yes' || lowerCaseDesert === 'y') {
 } else {
   alert('Looks like you didn\'t read the question');
 }
+}
 
+function mySiblings() {
 // Question 2.
 let siblings = prompt('Does Revathi have siblings? Please Answer with yes or no.');
 
@@ -36,7 +47,9 @@ if (lowerCaseSiblings === 'yes' || lowerCaseSiblings === 'y') {
 } else {
   alert('Looks like you didn\'t read the question');
 }
+}
 
+function questionBookReading () {
 // Question 3
 let bookReading = prompt('Does Revathi like to read? Please Answer with yes or no');
 
@@ -50,7 +63,9 @@ if (lowerCaseBookReading === 'yes' || lowerCaseBookReading === 'y') {
 } else {
   alert('Looks like you didn\'t READ the question');
 }
+}
 
+function qustionJoinCodeFellows () {
 //Question 4
 let joinCodeFellows = prompt('Did Revathi join Code Fellows? Please Answer with yes or no');
 
@@ -64,7 +79,9 @@ if (lowerCaseJoinCodeFellows === 'yes' || lowerCaseJoinCodeFellows  === 'y') {
 } else {
   alert('Looks like you didn\'t READ the question');
 }
+}
 
+function questionYogurt() {
 //Question 5
 let yogurt = prompt('Does Revathi like yogurt? Please Answer with yes or no');
 
@@ -79,9 +96,9 @@ if (lowerCaseYogurt === 'yes' || lowerCaseYogurt  === 'y') {
   alert('Looks like you didn\'t READ the question');
   
 }
+}
 
-
-
+function guessNumber() {
 //Question 6
 let myNum = 7;
 for(let i=0; i<5; i++){
@@ -104,8 +121,9 @@ for(let i=0; i<5; i++){
   }
 }
 alert('The Correct answer is ' +myNum);
+}
 
-
+function favoriteMovies() {
 //Question 7
 let myFavMovies = ['frozen', 'CoCo', ];
 
@@ -134,5 +152,5 @@ count--;
 }
 alert('Correct Answers: ' +myFavMovies); 
 
-
+}
 alert('Thank you ' + userName + ' for participating in the guessing game. You got ' + correctAnswers + ' points. Have a nice day. :)');
