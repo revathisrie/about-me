@@ -6,6 +6,8 @@ Teach us more about you! Build out an “About Me” webpage that quizzes the us
 
 ### Author: Revathi Mylavarapu
 
+Update 5/6 worked on together Driver: Barry Currey Navigator: Revathi Mylavarapu
+
 ### Links and Resources
 * [submission PR](http://xyz.com)
 * Any Links you used as reference
