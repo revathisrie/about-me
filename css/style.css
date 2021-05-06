@@ -13,13 +13,14 @@ body * {
   h3 {
     font-size: 1.25em;
   }
+  
   img {
     width: 25%;
     display: block;
     margin: 10px auto;
     
   }
-  header, footer , #skills{
+  header, footer , #skills, #experience, #education, #interests{
     border: 1px solid black;
     margin: 2px;
     padding: 5px;
